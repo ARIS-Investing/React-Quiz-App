@@ -36,8 +36,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "jest": "^27.5.1"
+=======
+>>>>>>> a244d949e76a611d8fe6b06cae02d11b176d17ff
   }
 }

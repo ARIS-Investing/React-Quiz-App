@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { render, screen, fireEvent} from "@testing-library/react";
 import App from "./App"
 import Result from "./components/Result";
@@ -298,4 +299,13 @@ describe("App", () => {
     fireEvent.click(startOverButton);
     expect(startOver).toHaveBeenCalled();
   });
+=======
+import { render, screen } from '@testing-library/react';
+import App from './App';
+
+test('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+>>>>>>> a244d949e76a611d8fe6b06cae02d11b176d17ff
 });
